@@ -1,0 +1,98 @@
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.movie-item {
+  position: relative;
+
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-top: 1px solid rgba(235, 235, 235, 0.14); */
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.list-title {
+  text-align: center;
+  padding: 100px 0 20px 0;
+}
+.movie-item img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.middle {
+  padding-top: 20px;
+}
+.movie-item p {
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+}
+.rating {
+  width: 65px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 70px;
+  left: 45px;
+  background-color: rgba(0, 0, 0, 0.603);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10%;
+}
+
+.rating:hover{
+    background-color: rgb(0, 0, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.rating-save {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.rating-save button,
+.overview-button {
+  border-radius: 8px;
+  padding: 0.4em 1em;
+  background: linear-gradient(to right, #90cea1, #3cbec9, #00b3e5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.rating-save button:hover,
+.overview-button:hover {
+  background: linear-gradient(to right, #00b3e5, #3cbec9, #90cea1);
+  transform: scale(1.05);
+}
+
+.rating-save button:active,
+.overview-button:hover {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 600px) {
+  .movie-item {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+}

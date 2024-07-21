@@ -1,0 +1,84 @@
+.saved-movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+.saved-movie-item {
+  /* border-top: 1px solid rgba(235, 235, 235, 0.14); */
+  padding-top: 50px;
+  width: 260px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.saved-movie-item img {
+  border-radius: 10px;
+  width: 100px;
+  height: 200px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.saved-movie-item h3 {
+  font-size: 14px;
+}
+.clear-title h2 {
+  text-align: center;
+}
+
+.saved-movie-item p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.middle-save {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+
+.middle-save button {
+  border-radius: 8px;
+  padding: 0.1em 0.5em;
+  background: linear-gradient(to right, #90cea1, #3cbec9, #00b3e5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+  margin-left: 8px;
+}
+
+.middle-save button:hover {
+  background: linear-gradient(to right, #00b3e5, #3cbec9, #90cea1);
+  transform: scale(1.05);
+}
+
+.middle-save button:active {
+  transform: scale(0.95);
+}
+
+.clear-button {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.clear-button button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  background: linear-gradient(to right, #90cea1, #3cbec9, #00b3e5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.clear-button button:hover {
+  background: linear-gradient(to right, #00b3e5, #3cbec9, #90cea1);
+  transform: scale(1.05);
+}
+
+.clear-button button:active {
+  transform: scale(0.95);
+}

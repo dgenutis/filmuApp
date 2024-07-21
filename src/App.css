@@ -1,0 +1,16 @@
+body {
+  background-color: #0d253f;
+  color: #ffffffbe;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+h2 {
+  color: #ffffffb3;
+  font-family: "Roboto", sans-serif;
+}
+h3{
+      font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}

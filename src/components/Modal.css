@@ -1,0 +1,55 @@
+/* Modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(to right, #90cea1ea, #3cbdc9, #00b3e5d4);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.modal-content:hover {
+  background: linear-gradient(to right, #00b3e5, #3cbec9, #90cea1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.modal-image {
+  border-radius: 10px;
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.trailer{
+  border-radius: 10px;
+}
