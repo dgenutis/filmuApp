@@ -50,7 +50,7 @@ const Search = ({ onSearch }) => {
   return (
     <div className="header">
       <h2>the movie data base</h2>
-      <img src="../public/logo.svg" alt="logo" className="header-image" />
+      <img src="/logo.svg" alt="logo" className="header-image" />
       <div className="search">
         <input
           type="text"
